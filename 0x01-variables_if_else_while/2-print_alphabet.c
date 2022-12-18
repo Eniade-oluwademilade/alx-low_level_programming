@@ -8,8 +8,8 @@ int main(void)
 
 	for (alpha = 'a'; alpha <= 'z'; alpha++)
 	{
-		putchar("%i", alpha);
+		putchar(alpha);
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
