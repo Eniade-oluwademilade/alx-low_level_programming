@@ -2,4 +2,11 @@
 /**
  * returns length of string
  */
-int strlen(char *s)
+int _strlen(char *s)
+{
+	int i = 0;
+
+	for (; *s++;)
+		i++;
+	return (i);
+}
