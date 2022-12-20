@@ -1,6 +1,7 @@
 #include <stdio.h>
-/**printing alphabets
- * return: 0
+/**
+ *main - printing alphabets
+ *Return: 0
  */
 int main(void)
 {
