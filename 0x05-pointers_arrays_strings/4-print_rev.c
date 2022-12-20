@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- * function prints string in reverse
+ *print_rev - prints chars in reverse
+ *@s: is a pointer to array
+ *Return: (s[a]) string in reverse
  */
 void print_rev(char *s)
 {
