@@ -2,7 +2,7 @@
 /**
  * print_array - prints array of ints
  *@a:array of ints
- *@n: number of elements of array to print
+ *@n:number of elements of array
  */
 void print_array(int *a, int n)
 {
