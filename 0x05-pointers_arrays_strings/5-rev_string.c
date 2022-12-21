@@ -2,8 +2,6 @@
 /**
  *rev_string - this function reverses strings
  *@s: array string holder
- *@i: counter
- *@a: to loop over an array
  */
 void rev_string(char *s)
 {
@@ -15,8 +13,8 @@ void rev_string(char *s)
 
 	for (index = len - 1; index >= len / 2; index--)
 	{
-		tmp = s[index];
+		temp = s[index];
 		s[index] = s[len - index - 1];
-		s[len - index - 1] = tmp;
+		s[len - index - 1] = temp;
 	}
 }
