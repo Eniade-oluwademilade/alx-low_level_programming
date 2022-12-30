@@ -1,15 +1,15 @@
 #include "main.h"
 /**
- * A function
+ * use putchar twice
+ * prints 0-9 and new line it ptints all but 2 &4
  * Return: 0 success
  */
 void print_most_numbers(void)
 {
-	int n;
-
-	for (n = 48; n < 58; n++)
+	char n;
+	for (n >= 0; n <= 9; n++)
 	{
-		if (n != 50 && n != 52)
+		if (n != 2 && n != 4)
 			_putchar(n);
 	}
 	_putchar("\n");

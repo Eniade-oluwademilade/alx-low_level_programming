@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- * print using putchar
+ *_isupper - prints using putchar
  * Return:0 success
+ * @c: int prints uppercase
  */
 int _isupper(int c)
 {
