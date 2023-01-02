@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * char *_memset - 
- *@b: the desired value 
+ *char *_memset - function fills bytes of memory area
+ *@b: the desired value
  *@s: starting address of memory to be filled
  *@n: number of bytes to be changed
  * Return: pointer to memory area s
