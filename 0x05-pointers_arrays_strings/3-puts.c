@@ -1,8 +1,7 @@
 #include "main.h"
 /**
  *_puts - function prints string and new line
- *@str: pointer tostring
- *@i: our counter
+ *@str: pointer t string
  */
 void _puts(char *str)
 {
