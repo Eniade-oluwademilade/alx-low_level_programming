@@ -1,5 +1,7 @@
 #include <stdio.h>
 /**
+ * main - Entry point
+ * Return: 1 succes
  * printing to standard error
  */
 int main(void)
