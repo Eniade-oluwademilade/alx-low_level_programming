@@ -28,5 +28,5 @@ int _atoi(char *s)
 		num = num + ((*(s + i) - 48) * m);
 		m /= 10;
 	}
-	return (num * sign);
+	return (num * sum);
 }
