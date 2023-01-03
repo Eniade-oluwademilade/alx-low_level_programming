@@ -1,13 +1,12 @@
 #include "main.h"
 /**
- * main
- * function: adding numbers
+ * add -  adding numbers
+ * @a: number 1
+ * @b: number 2
  * Return: 0 (success)
  */
-int add(int, int)
-{return (int + int)}
+int add(int a, int b)
 {
-int main(void)
-	_putchar("%d", add(3, 7);
-return (0);
+	return (a + b);
 }
+
