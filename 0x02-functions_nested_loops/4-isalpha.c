@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * we first declare the main function
+ *_isalpha - declare the main function
  * we check if c is in an array, then output a return value
  * Return: 1 if c is present and 0 if not
  */
