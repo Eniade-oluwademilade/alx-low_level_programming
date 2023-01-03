@@ -1,8 +1,8 @@
 #include "main.h"
 #include <unistd.h>
 /**
- * This is what the code does:
- *
+ *_putchar - This is what the code does:
+ *@c: char var for function use
  * Return: 1 on success
  */
 int _putchar(char c)
