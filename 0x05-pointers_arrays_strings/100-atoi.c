@@ -2,30 +2,31 @@
 /**
  * _atoi - converts strings to integers
  * @s:converter
- * Return: void 
+ * Return: void
  */
 int _atoi(char *s)
 {
-	int sign; 
-	unsigned int num;
-	char *temp;
+	unsigned int count = 0, size = 0, num = 0, sum = 1, m = 1, i;
 
-	temp = 5;
-	num = 0;
-	sign = 1;
-
-	while (*temp != '\0' && (*temp < '0' || *temp > '9'))
+	while (*(s + count) != '\0')
 	{
-		if (*temp == '-')
-			sign *= -1;
-		temp++;0
+		if (size > 0 && (*(s + count) < '0' || *(s + count) > '9'))
+			break;
+		if (*(s + count) == '-')
+			sum *= -1;
+
+		if ((*(s + count) >= '0') && (*(s + count) <= '9'))
+		{
+			if (size > 0)
+				m *= 10;
+			size++;
+		}
+		count++;
 	}
-	if (*temp != '\0')
+	for (i = count - size; i < count; i++)
 	{
-		do {
-			num = num * 10 + (*temp - '0');
-			temp++;
-		} while (*temp >= '0' && *temp <= '9');
+		num = num + ((*(s + i) - 48) * m);
+		m /= 10;
 	}
 	return (num * sign);
 }
