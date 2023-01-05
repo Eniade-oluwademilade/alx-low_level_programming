@@ -12,7 +12,7 @@ int _sqrt_recursion(int n)
  * @i: counter
  * Return: a value to check.
  */
-int _sqrt_helper(int i, int n)
+int _sqrt_helper(int n, int i)
 {
 	int i = 1;
 
