@@ -4,9 +4,7 @@
 
 /**
  * print_dog - prints info of dog
- * @name: name of dog
- * @age: age of dog
- * @owner: owner of dog
+ * @d: pointer to dog structure
  */
 void print_dog(struct dog *d)
 {
@@ -18,7 +16,7 @@ void print_dog(struct dog *d)
 	}
 	else
 		printf("%s ", (*d).name);
-	if((*d).age == NULL)
+	if ((*d).age == NULL)
 	{
 		printf("Age: (nil)\n");
 	}
