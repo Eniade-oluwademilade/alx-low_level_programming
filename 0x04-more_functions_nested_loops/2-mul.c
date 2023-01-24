@@ -5,7 +5,7 @@
  * @a: first int
  * @b: second int
  */
-int mul(int a, int b);
+int mul(int a, int b)
 {
 	return (a * b);
 }

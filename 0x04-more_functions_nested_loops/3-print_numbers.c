@@ -1,13 +1,15 @@
 #include "main.h"
 /**
- * function prints 0-9
+ * print_numbers - prints 0-9
  * use putchar only twice
  */
 void print_numbers(void)
 {
-	for(c >= 0;c <= 9;c++)
-	_putchar("%d");
-}
-{
-	_putchar("\n");
+	int c;
+
+	for (c = 0; c <= 9; c++)
+	{
+	_putchar (c + '0');
+	}
+	_putchar('\n');
 }
