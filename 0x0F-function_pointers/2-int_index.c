@@ -5,6 +5,7 @@
  * @array: an array of elements
  * @size: size of array
  * @cmp: pointer to compare elements
+ * Return: index of element or -1
  */
 int int_index(int *array, int size, int(*cmp)(int))
 {
@@ -12,15 +13,15 @@ int int_index(int *array, int size, int(*cmp)(int))
 
 	if (array && cmp)
 	{
-		do{
+		do {
 			for (i = 0; i <= size; i++)
 			{
-				if (cmp(array[i]) != 0)
-						return (i);
-						}
-
+			if (cmp(array[i]) != 0)
+			return (i);
+			}
 		}
-	while (size != 0 || size < 0);
+	while
+		(size != 0 || size < 0);
 	}
 	return (-1);
 }
