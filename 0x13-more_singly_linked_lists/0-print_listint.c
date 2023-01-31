@@ -1,7 +1,5 @@
 #include "lists.h"
 #include <stdio.h>
-#include <string.h>
-#include <stdio.h>
 /**
  * print_listint - prints elements of list.
  * @h: head of node.
