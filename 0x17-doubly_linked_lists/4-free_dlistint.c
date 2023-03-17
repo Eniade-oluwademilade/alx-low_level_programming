@@ -13,6 +13,6 @@ void free_dlistint(dlistint_t(*head))
 	{
 		dhead = head;
 		dhead = head->next;
-		free(list);
+		free(dhead);
 	}
 }
